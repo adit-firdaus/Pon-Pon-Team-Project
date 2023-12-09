@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5077178990317558300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6624747629293425408}
+  - component: {fileID: 5175591885396204555}
+  - component: {fileID: 5175591885396204554}
+  - component: {fileID: 5175591885396204552}
+  m_Layer: 0
+  m_Name: Explosive barrel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6624747629293425408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5077178990317558300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8526381925391171789}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &5175591885396204555
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5077178990317558300}
+  serializedVersion: 2
+  m_Mass: 50
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5175591885396204554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5077178990317558300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5341f36bbf0c9f459fee374b94ec901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 16183
+  radius: 7
+  effectRadius: 30
+  damage: 150
+  force: 1
+  delay: 5
+  friction: 1
+  sticky: 0
+  damageable: 1
+  health: 25
+  exlopeAfterDelay: 0
+  destroyOnExplode: 1
+  clearDelay: 60
+  explosion: {fileID: 3423798242356165502, guid: 9efa635e0a33d344aa68a8198890b1da,
+    type: 3}
+  craterDecal: {fileID: 4868516944105587278, guid: e64ede6d6c9dce741ba875d8a6a5a4ee,
+    type: 3}
+  explosionEffect: {fileID: 4937139211555871013, guid: 2a09292c02b9ed74d8d257e999e0768e,
+    type: 3}
+  explosionEffectForce: 8
+  explosionEffactOffcet: {x: 0, y: 0, z: 0}
+  explosionSize: 2
+  craterSize: 4
+  cameraShake: 2
+  audioLowPassFilter: 1
+  lowPassCutoffFrequency: 1500
+  lowPassTime: 2
+  lowPassSmoothness: 0.1
+  debug: 1
+  ranges: 1
+  rays: 1
+--- !u!114 &5175591885396204552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5077178990317558300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a854272f4ea4d449a953a3e196770aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  decalVFX: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
+  lifeTime: 60
+  materialStrenght: 1
+--- !u!1001 &3859052031901423410
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6624747629293425408}
+    m_Modifications:
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230368993735019845, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+        type: 3}
+      propertyPath: m_Name
+      value: Explosive barrel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 38d3719b3372c6149a537b1cc5f58a2a, type: 3}
+--- !u!4 &8526381925391171789 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4890293811361306623, guid: 38d3719b3372c6149a537b1cc5f58a2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3859052031901423410}
+  m_PrefabAsset: {fileID: 0}

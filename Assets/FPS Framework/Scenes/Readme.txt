@@ -1,0 +1,1 @@
+it's recommended to not use the demo scene as your main scene duo to a lot of changes might break your game after each update if you still want to use it duplicate it and use the duplicated version

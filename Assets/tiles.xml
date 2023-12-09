@@ -1,0 +1,42 @@
+<set>
+  <tiles>
+<tile name="Tiles/One/One" symmetry="X" weight="1.0"/>
+<tile name="Tiles/Hall/Hall" symmetry="X" weight="1.0"/>
+<tile name="Tiles/Junction/Junction" symmetry="X" weight="1.0"/>
+<tile name="Tiles/Corner/Corner" symmetry="X" weight="1.0"/>
+<tile name="Tiles/Cross/Cross" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="Tiles/One/One 0" right="Tiles/Junction/Junction 1"/>
+  <neighbor left="Tiles/Junction/Junction 0" right="Tiles/Hall/Hall 0"/>
+  <neighbor left="Tiles/Junction/Junction 1" right="Tiles/Junction/Junction 3"/>
+  <neighbor left="Tiles/Hall/Hall 0" right="Tiles/Junction/Junction 3"/>
+  <neighbor left="Tiles/Junction/Junction 3" right="Tiles/Hall/Hall 0"/>
+  <neighbor left="Tiles/Junction/Junction 0" right="Tiles/One/One 2"/>
+  <neighbor left="Tiles/Hall/Hall 0" right="Tiles/Corner/Corner 3"/>
+  <neighbor left="Tiles/Corner/Corner 0" right="Tiles/Hall/Hall 0"/>
+  <neighbor left="Tiles/One/One 0" right="Tiles/Hall/Hall 0"/>
+  <neighbor left="Tiles/Hall/Hall 0" right="Tiles/Junction/Junction 2"/>
+  <neighbor left="Tiles/Junction/Junction 3" right="Tiles/Hall/Hall 0"/>
+  <neighbor left="Tiles/Hall/Hall 0" right="Tiles/Cross/Cross 1"/>
+  <neighbor left="Tiles/Hall/Hall 0" right="Tiles/Corner/Corner 3"/>
+  <neighbor left="Tiles/One/One 0" right="Tiles/Cross/Cross 0"/>
+  <neighbor left="Tiles/Cross/Cross 0" right="Tiles/One/One 2"/>
+  <neighbor left="Tiles/Cross/Cross 1" right="Tiles/Hall/Hall 0"/>
+  <neighbor left="Tiles/One/One 0" right="Tiles/Corner/Corner 2"/>
+  <neighbor left="Tiles/Corner/Corner 3" right="Tiles/Junction/Junction 1"/>
+  <neighbor left="Tiles/Corner/Corner 0" right="Tiles/Corner/Corner 2"/>
+  <neighbor left="Tiles/Corner/Corner 1" right="Tiles/Cross/Cross 1"/>
+  <neighbor left="Tiles/Hall/Hall 0" right="Tiles/Junction/Junction 3"/>
+  <neighbor left="Tiles/Junction/Junction 1" right="Tiles/Corner/Corner 3"/>
+  <neighbor left="Tiles/Hall/Hall 0" right="Tiles/Cross/Cross 0"/>
+  <neighbor left="Tiles/Corner/Corner 0" right="Tiles/Hall/Hall 0"/>
+  <neighbor left="Tiles/Corner/Corner 1" right="Tiles/One/One 2"/>
+  <neighbor left="Tiles/One/One 0" right="Tiles/Cross/Cross 1"/>
+  <neighbor left="Tiles/One/One 0" right="Tiles/Junction/Junction 2"/>
+  <neighbor left="Tiles/Cross/Cross 0" right="Tiles/Hall/Hall 0"/>
+  <neighbor left="Tiles/Cross/Cross 1" right="Tiles/One/One 2"/>
+  <neighbor left="Tiles/Corner/Corner 0" right="Tiles/Corner/Corner 2"/>
+  <neighbor left="Tiles/Corner/Corner 1" right="Tiles/Hall/Hall 0"/>
+  <neighbor left="Tiles/Hall/Hall 0" right="Tiles/Corner/Corner 2"/>
+	</neighbors>
+</set>

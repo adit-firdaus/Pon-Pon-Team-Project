@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ee099bf388b684a82d6b44291759ae, type: 3}
+  m_Name: Sniper_1
+  m_EditorClassIdentifier: 
+  Name: Sniper_1
+  replacement: {fileID: 2044694923625134277, guid: 25713e62f4e3b444bb96bba0adf20e98,
+    type: 3}
+  canves: {fileID: 6802205737550449059, guid: 0336a53be1116fe48935ea7a38bfc26e, type: 3}
+  crosshair: {fileID: 4358158801835502854, guid: 27645de92401af74ba44a94455dc5867,
+    type: 3}
+  rechargingType: 1
+  fireMode: 1
+  fireRateUnit: 60
+  casingDirection: 2
+  projectile: {fileID: 5533149664834043035, guid: 788a3d3b8ecc33d4989926185282c05d,
+    type: 3}
+  casing: {fileID: 1505783374226792693, guid: af363bf468502534bb337f607f39a75d, type: 3}
+  fireRate: 500
+  muzzleVelocity: 714
+  ejectionVelocity: 7
+  impactForce: 100
+  damage: 70
+  range: 500
+  sprayPattern: {fileID: 11400000, guid: 897a68f121d704e4f8fe89f542c34aab, type: 2}
+  aimSprayPattern: {fileID: 11400000, guid: b459e17d945e124448d4514f19356e4b, type: 2}
+  fireTransition: 0
+  rechargingStateName: Fire
+  allowFireWhileRecharging: 0
+  casingRotationFactor: 25
+  lowerdDelay: 10
+  tracerRounds: 1
+  projectileSize: 35
+  decalSize: 1
+  afterShotReliefTime: 1
+  shotCount: 1
+  shotDelay: 0.07202883
+  alwaysApplyFire: 1
+  ammoType: {fileID: 11400000, guid: e8e0f7cd6e9f26f41a6cee6aabf290fe, type: 2}
+  magazineCapacity: 5
+  reserve: 5
+  automaticReload: 1
+  reloadOnAwake: 0
+  reloadType: 0
+  flexibleReloadTime: 0
+  reloadTime: 1.73
+  emptyReloadTime: 3.17
+  recoilPositionRoughness: 10
+  recoilRotationRoughness: 10
+  horizontalRecoil: 0.1
+  verticalRecoil: 0.3
+  cameraRecoil: 4
+  RecoilRotation: {x: -15, y: 25, z: 15}
+  RecoilKickBack: {x: 0.1, y: 0.1, z: -0.7}
+  RecoilRotation_Aim: {x: -2, y: 3, z: 3}
+  RecoilKickBack_Aim: {x: -0.01, y: 0.01, z: -0.4}
+  aimSpeed: 10
+  aimFieldOfView: 50
+  aimWeaponFieldOfview: 40
+  Movement_WalkSpeed: 5
+  Movement_RunSpeed: 10
+  Movement_TacticalSprintSpeed: 13
+  Movement_AimWalkSpeed: 3
+  Movement_FireWalkSpeed: 4
+  allowFullMovementSpeedWhileAiming: 0
+  fire: {fileID: 11400000, guid: 32a2f80fb0c67e64081a8e973e0f22c5, type: 2}
+  fireLoop: {fileID: 0}
+  fireTail: {fileID: 11400000, guid: 72df941812d0fa2489ab8d293fc08fc5, type: 2}
+  staticRecoilRotation: {x: -1, y: 2, z: -40}
+  cameraShake: 0.15
+  cameraShakeFadeOutTime: 0.3
+  reloadAudio: {fileID: 11400000, guid: 98c362cd6ac2c4e48845533df6f2af88, type: 2}
+  reloadEmptyAudio: {fileID: 11400000, guid: 98c362cd6ac2c4e48845533df6f2af88, type: 2}
+  Use_Fire: 1
+  Use_Recoil: 1
+  Use_Audio: 1
